@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: red;
+    height: 100vh;
+
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+}
+.intro{
+    padding: 75px;
+}
+.main{
+    background-image: url("programming.jpeg");
+    background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+nav a{
+    text-decoration: none;;
+    font-weight: 500;
+    color:#3a6cf4;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+nav{
+    padding-right: 400px;
+}
+
+.main-btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    padding: 10px 0;
+    margin: 20px;
+    background-color: #3a6cf4;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: red;
+    padding-top: 25px;
+}
+
+span{
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+}
+i{
+    font-size: 20px;
+}
+
+@media(max-width: 750px){
+    header{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+h3{
+    color: aqua
+}
+a{
+    color:aquamarine
+}
+b{
+    color: #ffffff;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(#3a6cf4,#fff);
+}
+
+.info{
+    font-size: 20px;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+h2{
+    text-align:center ;
+}
+.content{
+    display: block;
+}
+.contact{
+    color: black;
+}
+.projects{
+    background-color: rgb(219, 207, 34);
+}
+.contactus{
+    background-color: #5ebec4;
+}
+footer{
+    background-color: aquamarine;
+}
